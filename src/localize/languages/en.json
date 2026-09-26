@@ -147,6 +147,11 @@
     "preset_row_heat_away": "Heat away",
     "preset_row_cool": "Cool",
     "preset_row_cool_away": "Cool away",
-    "regulation_chart_title": "Regulation chart"
+    "regulation_chart_title": "Regulation chart",
+    "regulation_chart_setpoint": "Setpoint",
+    "regulation_chart_room": "Room",
+    "regulation_chart_regulated": "Regulated",
+    "regulation_chart_outdoor": "Outdoor",
+    "regulation_chart_power": "Power %"
   }
 }
