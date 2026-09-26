@@ -435,8 +435,8 @@ export class VtRegulationChart extends LitElement {
         ${this._loading ? html`<div class="chart-loading"></div>` : ''}
         <canvas></canvas>
         <div class="zoom-btns">
-          <button class="reset-zoom-btn" @click=${() => this._zoomTo2h()} title="Vue 2 heures">2h</button>
-          <button class="reset-zoom-btn" @click=${() => this.resetZoom()} title="Vue 24 heures">1d</button>
+          <button class="reset-zoom-btn" @click=${() => this._zoomTo2h()} title="${localize({ hass: this.hass, string: 'extra_states.regulation_chart_2h_title' })}">${localize({ hass: this.hass, string: 'extra_states.regulation_chart_2h' })}</button>
+          <button class="reset-zoom-btn" @click=${() => this.resetZoom()} title="${localize({ hass: this.hass, string: 'extra_states.regulation_chart_1d_title' })}">${localize({ hass: this.hass, string: 'extra_states.regulation_chart_1d' })}</button>
         </div>
       </div>
     `;
